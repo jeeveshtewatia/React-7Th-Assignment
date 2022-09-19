@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 96.5vh;
+  background: no-repeat;
+
+  background-image: linear-gradient(to bottom,
+      #b1e1ff,
+      #d67eae,
+      #ff73c0,
+      #e1f0c0);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +49,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

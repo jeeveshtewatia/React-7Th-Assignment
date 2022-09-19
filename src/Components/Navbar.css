@@ -5,11 +5,12 @@
 .flexbox {
     display: flex;
     justify-content: space-evenly;
-    background-color: aqua;
+    background-color: black;
     padding: 20px;
     box-sizing: border-box;
     font-size: 24px;
     text-decoration: none;
+    color: white;
 }
 
 .non {
@@ -25,29 +26,90 @@
     align-items: center;
 }
 
+.tab {
+    /* margin: auto; */
+
+}
+
+.flexdetail {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.secpage {
+    display: flex;
+    font-family: Bungee Inline;
+    font-size: 20px;
+    margin-left: 6vw;
+    margin-top: 1vw;
+}
+
+
 table {
-    border: 2px solid forestgreen;
-    width: 800px;
+    /* border/: 2px solid forestgreen; */
+    width: 1000px;
     height: 200px;
+    margin: auto;
+    margin-top: 50px;
 }
 
 th {
     border-bottom: 1px solid black;
+    background-color: brown;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 10px;
 }
 
 td {
     text-align: center;
+
 }
 
 tr {
     padding: 50px;
 }
 
-h1,
+
 head {
     background-color: bisque;
     color: black;
     font-size: 28px;
     display: block;
     text-align: center;
+}
+
+/* 
+.btn {
+    padding: 5px 10px;
+    background-color: blue;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+
+} */
+
+.but1 {
+    background-color: #87cefa;
+    border: 2px solid #000;
+    border-radius: 25px;
+    font-size: 25px;
+    height: 50px;
+    margin-left: 47vw;
+    margin-top: -1px;
+    width: 250px;
+}
+
+
+
+input {
+
+    border-radius: 10px;
+    height: 80px;
+    margin: 40px;
+    width: 40vw;
+    background-color: cornsil;
+
 }
