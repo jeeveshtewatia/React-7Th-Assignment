@@ -14,7 +14,7 @@
 }
 
 .non {
-    color: blue;
+    /* color: blue; */
     text-decoration: none;
 }
 
@@ -26,10 +26,6 @@
     align-items: center;
 }
 
-.tab {
-    /* margin: auto; */
-
-}
 
 .flexdetail {
     display: flex;
@@ -44,6 +40,7 @@
     font-size: 20px;
     margin-left: 6vw;
     margin-top: 1vw;
+    justify-content: space-evenly;
 }
 
 
@@ -81,7 +78,6 @@ head {
     text-align: center;
 }
 
-/* 
 .btn {
     padding: 5px 10px;
     background-color: blue;
@@ -89,7 +85,7 @@ head {
     font-size: 18px;
     font-weight: 500;
 
-} */
+}
 
 .but1 {
     background-color: #87cefa;
@@ -102,7 +98,9 @@ head {
     width: 250px;
 }
 
-
+button {
+    background-color: white;
+}
 
 input {
 
